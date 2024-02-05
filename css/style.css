@@ -12,6 +12,8 @@
     src: url(../fonts/Poppins/Poppins-Medium.ttf);
 }
 
+
+
 nav {
     position: fixed;
     top: -20px;
@@ -43,7 +45,7 @@ ul {
 li {
     list-style-type: none;
     padding-left: 40px;
-    margin-top: 16px;
+    margin-top: 26px;
     font-weight: 100;
 }
 
@@ -96,7 +98,7 @@ button:hover {
 #main-section {
     width: 90vw;
     height: 100rem;
-    /* border: 2px solid rgb(125, 123, 123); */
+    /* border: 2px solid rgb(0, 0, 0); */
     position: relative;
     top: 100px;
 }
@@ -251,7 +253,7 @@ form img {
 
 #land-scape {
     width: 100%;
-    height: 251px;
+    height: 241px;
 }
 
 #bt-3 {
@@ -552,7 +554,7 @@ form img {
 footer {
     width: 100%;
     height: 350px;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
 
 }
 
@@ -619,4 +621,18 @@ footer {
     margin-left: 0px;
     padding: 0px 8px;
     color: #e23939;
+}
+.line-3 {
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    border: 2px solid gainsboro;
+}
+.right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-section h3{
+    margin-top: 46px;
 }
