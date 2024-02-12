@@ -8,34 +8,58 @@
     <link rel="shortcut icon" href="favicon.ico" type="">
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/style.css">
-    
     <link rel="stylesheet" href="css/utsils.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav>
-        <div id="spot-logo"><img src="img/spotfinde-logo.png" alt="Spot-Finder Logo"></div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="">Become a Partner</a></li>
-        </ul>
-        <div id="shop-icon" class="ii"><img src="img/Shopping icon.svg" alt="" ></div>
-        <a href="" id="login">Login</a>
-        <button id="bt-1">Register</button>
-        <hr style="  position: absolute; top: 67px;width: 104%;">
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+        <div class="container-fluid">
+            <img src="img/spotfinde-logo.png" alt="" width="15%">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-5 mb-3 mb-lg-1">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Become a Partner</a>
+                    </li>
+
+                </ul>
+
+                <div class="nav-icons me-5 d-flex mt-3">
+                    <i class="fa-solid fa-lock" style="color: #ff4a3d;"></i>
+                </div>
+                <div class="btn  mt-3"><button>Register</button></div>
+
+            </div>
+        </div>
     </nav>
+    <hr>
+  
 
 
     <div id="main-section" class="m-auto">
         <!-- Home Section -->
-        <div class="form-section" id="home" >
+        <div class="form-section" id="home">
             <div class="heading1">
                 <h1 id="ee">Parking <span>Simplified</span></h1>
             </div>
@@ -54,7 +78,8 @@
                         <option value="valet">Valet</option>
                         <option value="truck">Semi Truck</option>
                     </select>
-                    <img src="img/cheack-in.png" alt="" class="cheack-in"><input type="date" id="bar3" placeholder="Cheack-in">
+                    <img src="img/cheack-in.png" alt="" class="cheack-in"><input type="date" id="bar3"
+                        placeholder="Cheack-in">
                     <img src="img/cheack-out.png" class="check-out" id="out1"><input type="date" id="bar4"
                         placeholder="Cheack-out">
                 </form>
@@ -82,7 +107,7 @@
             </div>
             <div class="box">
                 <img src="img/2.jpg" alt="" id="land-scape" class="set">
-                <h2 >Airport Parking</h2>
+                <h2>Airport Parking</h2>
                 <button id="bt-3">Find a Parking</button>
 
 
@@ -252,7 +277,9 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
